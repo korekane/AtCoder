@@ -1,0 +1,84 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe アクティブなファイルのビルド",
+            "command": "C:\\gcc\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "デバッガーによって生成されたタスク。"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe アクティブなファイルのビルド",
+            "command": "C:\\gcc\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "コンパイラ: C:\\gcc\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe アクティブなファイルのビルド",
+            "command": "C:\\gcc\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "コンパイラ: C:\\gcc\\mingw64\\bin\\gcc.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: cpp.exe アクティブなファイルのビルド",
+            "command": "C:\\gcc\\mingw64\\bin\\cpp.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "コンパイラ: C:\\gcc\\mingw64\\bin\\cpp.exe"
+        }
+    ],
+    "version": "2.0.0"
+}
